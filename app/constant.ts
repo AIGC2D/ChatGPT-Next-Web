@@ -8,8 +8,8 @@ export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/c
 export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 
-export const DEFAULT_CORS_HOST = "https://nb.nextweb.fun";
-export const DEFAULT_API_HOST = `${DEFAULT_CORS_HOST}/api/proxy`;
+export const DEFAULT_CORS_HOST = "https://api.aigc2d.com";
+export const DEFAULT_API_HOST = DEFAULT_CORS_HOST;
 
 export enum Path {
   Home = "/",
@@ -118,6 +118,22 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "gpt-3.5-turbo-16k-0613",
+    available: true,
+  },
+  {
+    name: "ernie-bot",
+    available: true,
+  },
+  {
+    name: "ernie-bot-turbo",
+    available: true,
+  },
+  {
+    name: "spark-v1.5",
+    available: true,
+  },
+  {
+    name: "spark-v2.0",
     available: true,
   },
 ] as const;

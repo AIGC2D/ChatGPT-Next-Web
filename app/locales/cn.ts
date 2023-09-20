@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "APIKEY 不正确，请登录 [AIGC2D](https://www.aigc2d.com) 生成APIKEY，或者在 [设置](/#/settings) 添加APIKEY",
   },
   Auth: {
     Title: "需要密码",
@@ -259,8 +259,8 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
-      Placeholder: "OpenAI API Key",
+      SubTitle: "请使用AIGC2D的APIKEY",
+      Placeholder: "AIGC2D APIKEY",
     },
 
     Usage: {

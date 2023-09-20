@@ -894,7 +894,7 @@ export function Settings() {
                 <input
                   type="text"
                   value={accessStore.openaiUrl}
-                  placeholder="https://api.openai.com/"
+                  placeholder="https://api.aigc2d.com/"
                   onChange={(e) =>
                     accessStore.updateOpenAiUrl(e.currentTarget.value)
                   }
