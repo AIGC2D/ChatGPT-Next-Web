@@ -8,8 +8,8 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "ChatGPT Next Web",
-    "version": "2.9.7"
+    "productName": "AIGC2D-ChatGPT",
+    "version": "3.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -49,7 +49,7 @@
     "bundle": {
       "active": true,
       "category": "DeveloperTool",
-      "copyright": "2023, Zhang Yifei All Rights Reserved.",
+      "copyright": "2023, AIGC2D All Rights Reserved.",
       "deb": {
         "depends": []
       },
@@ -61,7 +61,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.yida.chatgpt.next.web",
+      "identifier": "com.aigc2d.chatgpt.next.web",
       "longDescription": "ChatGPT Next Web is a cross-platform ChatGPT client, including Web/Win/Linux/OSX/PWA.",
       "macOS": {
         "entitlements": null,
@@ -71,7 +71,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "ChatGPT Next Web App",
+      "shortDescription": "AIGC2D CHATGPT WEB",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -85,13 +85,13 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/Yidadaa/ChatGPT-Next-Web/releases/latest/download/latest.json"
+        "https://github.com/aigc2d/ChatGPT-Next-Web/releases/latest/download/latest.json"
       ],
       "dialog": false,
       "windows": {
         "installMode": "passive"
       },
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVCMkYzQ0QwNkZFRUFFRkIKUldUN3J1NXYwRHd2NngyYXN3eC9MZFk4aUJ0NlN3cTBReGpta2dVemFUZC9HaXhLNmdXcDlQSUMK"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDJFQkNGQzZFQzE5QzNENkYKUldSdlBaekJidnk4TGx0cFErQ21WN3p4WG8zUkdmMEY1NGE5NkQ3c0dhZUkySmNCTzQyWmppSGgK"
     },
     "windows": [
       {
